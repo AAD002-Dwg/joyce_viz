@@ -1,0 +1,2249 @@
+{
+  "nodes": [
+    {
+      "id": "ek-bJZUBeQi-aLQff7Jj",
+      "title": "Telemachus",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "[1]",
+      "order": 0,
+      "url": "https://www.joyceproject.com/notes/ek-bJZUBeQi-aLQff7Jj"
+    },
+    {
+      "id": "fk-bJZUBeQi-aLQfe7B3",
+      "title": "Buck Mulligan",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "Stately, plump / Buck Mulligan / I paid the rent.",
+      "order": 1,
+      "url": "https://www.joyceproject.com/notes/fk-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "e0-bJZUBeQi-aLQfd66b",
+      "title": "Stairhead",
+      "color": "#9C632A",
+      "tag": "Dublin",
+      "snippet": "came from the stairhead / mounted the round gunrest / parapet",
+      "order": 2,
+      "url": "https://www.joyceproject.com/notes/e0-bJZUBeQi-aLQfd66b"
+    },
+    {
+      "id": "2k-bJZUBeQi-aLQfd6-b",
+      "title": "Mirror and a razor",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "a mirror and a razor lay crossed / He fears the lancet of my art as I fear that of his.",
+      "order": 3,
+      "url": "https://www.joyceproject.com/notes/2k-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "M0-bJZUBeQi-aLQfe7J3",
+      "title": "Yellow dressinggown",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "yellow dressinggown",
+      "order": 4,
+      "url": "https://www.joyceproject.com/notes/M0-bJZUBeQi-aLQfe7J3"
+    },
+    {
+      "id": "nk-bJZUBeQi-aLQff7Jj",
+      "title": "Ungirdled",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "ungirdled / untonsured",
+      "order": 5,
+      "url": "https://www.joyceproject.com/notes/nk-bJZUBeQi-aLQff7Jj"
+    },
+    {
+      "id": "mU-bJZUBeQi-aLQff7Jj",
+      "title": "Introibo",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "Introibo ad altare Dei",
+      "order": 6,
+      "url": "https://www.joyceproject.com/notes/mU-bJZUBeQi-aLQff7Jj"
+    },
+    {
+      "id": "40-bJZUBeQi-aLQfd6-b",
+      "title": "Kinch",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "Kinch / Kinch, the knifeblade.",
+      "order": 7,
+      "url": "https://www.joyceproject.com/notes/40-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "40-bJZUBeQi-aLQfd66b",
+      "title": "Jesuits",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "you fearful jesuit / jesuit / Loyola",
+      "order": 8,
+      "url": "https://www.joyceproject.com/notes/40-bJZUBeQi-aLQfd66b"
+    },
+    {
+      "id": "bk-bJZUBeQi-aLQfd6-b",
+      "title": "Tower",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "tower / his post / Elsinore. That beetles o&#x27;er his base into the sea",
+      "order": 9,
+      "url": "https://www.joyceproject.com/notes/bk-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "cU-bJZUBeQi-aLQff7Jj",
+      "title": "Wicklow Mountains",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "awaking mountains",
+      "order": 10,
+      "url": "https://www.joyceproject.com/notes/cU-bJZUBeQi-aLQff7Jj"
+    },
+    {
+      "id": "kk-bJZUBeQi-aLQfd6-b",
+      "title": "Stephen Dedalus",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "Stephen Dedalus",
+      "order": 11,
+      "url": "https://www.joyceproject.com/notes/kk-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "jU-bJZUBeQi-aLQfd6-b",
+      "title": "In Troy",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "equine in its length / grained and hued like pale oak / a cloud of coalsmoke and fumes of fried grease",
+      "order": 12,
+      "url": "https://www.joyceproject.com/notes/jU-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "90-bJZUBeQi-aLQfd6-b",
+      "title": "Barracks",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "Back to barracks",
+      "order": 13,
+      "url": "https://www.joyceproject.com/notes/90-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "Pk-bJZUBeQi-aLQfd7Cb",
+      "title": "Genuine Christine",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "For this, O dearly beloved, is the genuine Christine: body and soul and blood and ouns.",
+      "order": 14,
+      "url": "https://www.joyceproject.com/notes/Pk-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "yU-bJZUBeQi-aLQfd66b",
+      "title": "Those white corpuscles",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "A little trouble about those white corpuscles / Switch off the current",
+      "order": 15,
+      "url": "https://www.joyceproject.com/notes/yU-bJZUBeQi-aLQfd66b"
+    },
+    {
+      "id": "H0-bJZUBeQi-aLQfd6-b",
+      "title": "Chrysostomos",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "Chrysostomos",
+      "order": 16,
+      "url": "https://www.joyceproject.com/notes/H0-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "ok-bJZUBeQi-aLQfe7B3",
+      "title": "Two strong shrill whistles",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "Two strong shrill whistles answered",
+      "order": 17,
+      "url": "https://www.joyceproject.com/notes/ok-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "SU-bJZUBeQi-aLQfd7Cb",
+      "title": "Plump shadowed face",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "The plump / shadowed face and sullen oval jowl recalled a prelate, patron of arts in the middle ages.",
+      "order": 18,
+      "url": "https://www.joyceproject.com/notes/SU-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "i0-bJZUBeQi-aLQfe7B3",
+      "title": "Mockery",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "The mockery of it!",
+      "order": 19,
+      "url": "https://www.joyceproject.com/notes/i0-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "J0-bJZUBeQi-aLQfe7F3",
+      "title": "Absurd name",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "Your absurd name, an ancient Greek!",
+      "order": 20,
+      "url": "https://www.joyceproject.com/notes/J0-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "Mk-bJZUBeQi-aLQfe7F3",
+      "title": "Malachi",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "Malachi Mulligan, two dactyls / to flash the tidings abroad / Mercurial Malachi",
+      "order": 21,
+      "url": "https://www.joyceproject.com/notes/Mk-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "Ek-bJZUBeQi-aLQfd7Cb",
+      "title": "Hellenise it",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "Hellenic / Hellenise it. / Matthew Arnold",
+      "order": 22,
+      "url": "https://www.joyceproject.com/notes/Ek-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "lE-bJZUBeQi-aLQfe7B3",
+      "title": "Buck",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "the buck himself",
+      "order": 23,
+      "url": "https://www.joyceproject.com/notes/lE-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "MU-bJZUBeQi-aLQfe7J3",
+      "title": "Greeks!",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "We must go to Athens. Will you come / Ah, Dedalus, the Greeks! I must teach you. You must / read them in the",
+      "order": 24,
+      "url": "https://www.joyceproject.com/notes/MU-bJZUBeQi-aLQfe7J3"
+    },
+    {
+      "id": "1E-bJZUBeQi-aLQfd6-b",
+      "title": "L.s.d.",
+      "color": "#9C632A",
+      "tag": "Dublin",
+      "snippet": "quid / guinea / guinea",
+      "order": 25,
+      "url": "https://www.joyceproject.com/notes/1E-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "z0-bJZUBeQi-aLQfd66b",
+      "title": "Haines",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "Haines / oxy chap",
+      "order": 26,
+      "url": "https://www.joyceproject.com/notes/z0-bJZUBeQi-aLQfd66b"
+    },
+    {
+      "id": "7k-bJZUBeQi-aLQfe7F3",
+      "title": "Stranger",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "Saxon / Palefaces / Sassenach",
+      "order": 27,
+      "url": "https://www.joyceproject.com/notes/7k-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "L0-bJZUBeQi-aLQfe7F3",
+      "title": "Black panther",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "He was raving all night about a black panther, Stephen said. Where is his guncase?",
+      "order": 28,
+      "url": "https://www.joyceproject.com/notes/L0-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "i0-bJZUBeQi-aLQff7Jj",
+      "title": "Paresis",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "lunatic / General paralysis of the insane!",
+      "order": 29,
+      "url": "https://www.joyceproject.com/notes/i0-bJZUBeQi-aLQff7Jj"
+    },
+    {
+      "id": "aE-bJZUBeQi-aLQfd7Cb",
+      "title": "You saved men",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "saved men from drowning.",
+      "order": 30,
+      "url": "https://www.joyceproject.com/notes/aE-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "Lk-bJZUBeQi-aLQfd7Cb",
+      "title": "Not a hero",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "a hero,",
+      "order": 31,
+      "url": "https://www.joyceproject.com/notes/Lk-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "r0-bJZUBeQi-aLQff7Jj",
+      "title": "I am off",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "I am off.",
+      "order": 32,
+      "url": "https://www.joyceproject.com/notes/r0-bJZUBeQi-aLQff7Jj"
+    },
+    {
+      "id": "B0-bJZUBeQi-aLQfd7Cb",
+      "title": "Bowsy",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "Scutter / breeks / bowsy",
+      "order": 33,
+      "url": "https://www.joyceproject.com/notes/B0-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "uk-bJZUBeQi-aLQfd66b",
+      "title": "Noserag",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "noserag",
+      "order": 34,
+      "url": "https://www.joyceproject.com/notes/uk-bJZUBeQi-aLQfd66b"
+    },
+    {
+      "id": "q0-bJZUBeQi-aLQfd6-b",
+      "title": "Snotgreen",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "A new art colour for our Irish poets: snotgreen.",
+      "order": 35,
+      "url": "https://www.joyceproject.com/notes/q0-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "DU-bJZUBeQi-aLQfe7F3",
+      "title": "Dublin Bay",
+      "color": "#9C632A",
+      "tag": "Dublin",
+      "snippet": "Dublin bay / ring of bay and skyline",
+      "order": 36,
+      "url": "https://www.joyceproject.com/notes/DU-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "3U-bJZUBeQi-aLQfe7F3",
+      "title": "Great sweet mother",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "what Algy calls it: a great sweet mother",
+      "order": 37,
+      "url": "https://www.joyceproject.com/notes/3U-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "dU-bJZUBeQi-aLQfd6-b",
+      "title": "Epi oinopa ponton",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "Epi oinopa ponton.",
+      "order": 38,
+      "url": "https://www.joyceproject.com/notes/dU-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "4U-bJZUBeQi-aLQfe7F3",
+      "title": "Thalatta!",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "Thalatta! Thalatta!",
+      "order": 39,
+      "url": "https://www.joyceproject.com/notes/4U-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "Xk-bJZUBeQi-aLQfd7Cb",
+      "title": "Mailboat",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "mailboat / mailboat",
+      "order": 40,
+      "url": "https://www.joyceproject.com/notes/Xk-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "SE-bJZUBeQi-aLQfd7Cb",
+      "title": "Kingstown pier",
+      "color": "#9C632A",
+      "tag": "Dublin",
+      "snippet": "harbourmouth of Kingstown / on the pier",
+      "order": 41,
+      "url": "https://www.joyceproject.com/notes/SE-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "m0-bJZUBeQi-aLQfd66b",
+      "title": "AE",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "Our mighty mother",
+      "order": 42,
+      "url": "https://www.joyceproject.com/notes/m0-bJZUBeQi-aLQfd66b"
+    },
+    {
+      "id": "50-bJZUBeQi-aLQfe7B3",
+      "title": "Great searching eyes",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "his great searching eyes",
+      "order": 43,
+      "url": "https://www.joyceproject.com/notes/50-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "l0-bJZUBeQi-aLQfd6-b",
+      "title": "Repent!",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "you killed your mother / begging you with her last breath to kneel down and pray for her. And you refused. / Silent with awe and pity I went to her bedside.",
+      "order": 44,
+      "url": "https://www.joyceproject.com/notes/l0-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "l0-bJZUBeQi-aLQfe7B3",
+      "title": "Hangman god",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "Someone killed her",
+      "order": 45,
+      "url": "https://www.joyceproject.com/notes/l0-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "dk-bJZUBeQi-aLQfe7B3",
+      "title": "Hyperborean",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "hyperborean",
+      "order": 46,
+      "url": "https://www.joyceproject.com/notes/dk-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "fU-bJZUBeQi-aLQfd66b",
+      "title": "Mummer",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "mummer",
+      "order": 47,
+      "url": "https://www.joyceproject.com/notes/fU-bJZUBeQi-aLQfd66b"
+    },
+    {
+      "id": "FE-bJZUBeQi-aLQfe7J3",
+      "title": "Pain of love",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "pain of love",
+      "order": 48,
+      "url": "https://www.joyceproject.com/notes/FE-bJZUBeQi-aLQfe7J3"
+    },
+    {
+      "id": "kk-bJZUBeQi-aLQfd66b",
+      "title": "Wax and rosewood",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "Silently, in a dream she had come to him after her death, her wasted body within its loose brown graveclothes giving off an odour of wax and rosewood, her breath, that had bent upon him, mute, reproachful, a faint odour of wetted ashes. / In a dream, silently, she had come to him, her wasted body within its loose graveclothes giving off an odour of wax and rosewood, her breath, bent over him with mute secret words, a faint odour of wetted ashes.",
+      "order": 49,
+      "url": "https://www.joyceproject.com/notes/kk-bJZUBeQi-aLQfd66b"
+    },
+    {
+      "id": "iLe1TJcB31HfjHCgiaLs",
+      "title": "His hand",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "the wellfed voice / a voice that speaks to her loudly,",
+      "order": 50,
+      "url": "https://www.joyceproject.com/notes/iLe1TJcB31HfjHCgiaLs"
+    },
+    {
+      "id": "wU-bJZUBeQi-aLQfd6-b",
+      "title": "Dogsbody",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "dogsbody",
+      "order": 51,
+      "url": "https://www.joyceproject.com/notes/wU-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "eE-bJZUBeQi-aLQfd6-b",
+      "title": "Grey pants",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "I can&#x27;t wear them if they are grey. / cheap dusty mourning between their gay attires",
+      "order": 52,
+      "url": "https://www.joyceproject.com/notes/eE-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "kU-bJZUBeQi-aLQfe7B3",
+      "title": "Ship hotel and tavern",
+      "color": "#9C632A",
+      "tag": "Dublin",
+      "snippet": "the Ship / The Ship, Buck Mulligan cried. Half twelve.",
+      "order": 53,
+      "url": "https://www.joyceproject.com/notes/kU-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "K0-bJZUBeQi-aLQfd6-b",
+      "title": "Richmond Lunatic Asylum",
+      "color": "#9C632A",
+      "tag": "Dublin",
+      "snippet": "Dottyville",
+      "order": 54,
+      "url": "https://www.joyceproject.com/notes/K0-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "Tk-bJZUBeQi-aLQfd7Cb",
+      "title": "Conolly Norman",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "Conolly Norman",
+      "order": 55,
+      "url": "https://www.joyceproject.com/notes/Tk-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "2k-bJZUBeQi-aLQfe7F3",
+      "title": "As others see us",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "As he and others see me.",
+      "order": 56,
+      "url": "https://www.joyceproject.com/notes/2k-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "Q0-bJZUBeQi-aLQfd7Cb",
+      "title": "Our Father",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "Lead him not into temptation.",
+      "order": 57,
+      "url": "https://www.joyceproject.com/notes/Q0-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "AU-bJZUBeQi-aLQfe7F3",
+      "title": "Ursula",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "Ursula.",
+      "order": 58,
+      "url": "https://www.joyceproject.com/notes/AU-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "XE-bJZUBeQi-aLQfe7F3",
+      "title": "Caliban",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "The rage of Caliban at not seeing his face in a mirror",
+      "order": 59,
+      "url": "https://www.joyceproject.com/notes/XE-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "JU-bJZUBeQi-aLQfd7Cb",
+      "title": "Cracked lookingglass",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "a symbol of Irish art. The cracked lookingglass of a servant.",
+      "order": 60,
+      "url": "https://www.joyceproject.com/notes/JU-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "K0-bJZUBeQi-aLQfe7J3",
+      "title": "Flesh of a different man",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "linked his arm / freed his arm",
+      "order": 61,
+      "url": "https://www.joyceproject.com/notes/K0-bJZUBeQi-aLQfe7J3"
+    },
+    {
+      "id": "Hk-bJZUBeQi-aLQfe7F3",
+      "title": "Into the army",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "selling jalap to Zulus or some bloody swindle / going in for the army. / up the pole?",
+      "order": 62,
+      "url": "https://www.joyceproject.com/notes/Hk-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "k0-bJZUBeQi-aLQfd6-b",
+      "title": "Cranly's arm",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "Cranly&#x27;s arm. His arm.",
+      "order": 63,
+      "url": "https://www.joyceproject.com/notes/k0-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "4k-bJZUBeQi-aLQfd6-b",
+      "title": "Ragging",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "a ragging worse than they gave Clive Kempthorpe. / With slit ribbons of his shirt whipping the air he hops and hobbles round the table, with trousers down at heels, chased by Ades of Magdalen with the tailor&#x27;s / shears. A scared calf&#x27;s face gilded with marmalade. I don&#x27;t want to be debagged! Don&#x27;t you play the giddy ox with me!",
+      "order": 64,
+      "url": "https://www.joyceproject.com/notes/4k-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "DE-bJZUBeQi-aLQfd7Cb",
+      "title": "Break the news to her",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "Break the news to her gently",
+      "order": 65,
+      "url": "https://www.joyceproject.com/notes/DE-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "ZE-bJZUBeQi-aLQfd7Cb",
+      "title": "Omphalos",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "To ourselves... new paganism... omphalos.",
+      "order": 66,
+      "url": "https://www.joyceproject.com/notes/ZE-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "Q0-bJZUBeQi-aLQfe7J3",
+      "title": "Bray",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "Bray Head",
+      "order": 67,
+      "url": "https://www.joyceproject.com/notes/Q0-bJZUBeQi-aLQfe7J3"
+    },
+    {
+      "id": "u0-bJZUBeQi-aLQfd6-b",
+      "title": "Ideas and sensations",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "I remember only ideas and sensations.",
+      "order": 68,
+      "url": "https://www.joyceproject.com/notes/u0-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "pE-bJZUBeQi-aLQff7Jj",
+      "title": "Pulses beating",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "O, it&#x27;s only Dedalus whose mother is beastly dead. / flush / gaping wounds",
+      "order": 69,
+      "url": "https://www.joyceproject.com/notes/pE-bJZUBeQi-aLQff7Jj"
+    },
+    {
+      "id": "TE-bJZUBeQi-aLQfe7J3",
+      "title": "Mater hospital",
+      "color": "#9C632A",
+      "tag": "Dublin",
+      "snippet": "the Mater and Richmond",
+      "order": 70,
+      "url": "https://www.joyceproject.com/notes/TE-bJZUBeQi-aLQfe7J3"
+    },
+    {
+      "id": "Bk-bJZUBeQi-aLQfe7J3",
+      "title": "Sir Peter Teazle",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "sir Peter Teazle",
+      "order": 71,
+      "url": "https://www.joyceproject.com/notes/Bk-bJZUBeQi-aLQfe7J3"
+    },
+    {
+      "id": "EE-bJZUBeQi-aLQfd7Cb",
+      "title": "Mutes",
+      "color": "#9C632A",
+      "tag": "Dublin",
+      "snippet": "hired mute / from Lalouette&#x27;s",
+      "order": 72,
+      "url": "https://www.joyceproject.com/notes/EE-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "mk-bJZUBeQi-aLQfd66b",
+      "title": "Moody brooding",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "moody brooding",
+      "order": 73,
+      "url": "https://www.joyceproject.com/notes/mk-bJZUBeQi-aLQfd66b"
+    },
+    {
+      "id": "5E-bJZUBeQi-aLQfe7B3",
+      "title": "Love's bitter mystery",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "And no more turn aside and brood / Upon love&#x27;s bitter mystery / For Fergus rules the brazen cars.",
+      "order": 74,
+      "url": "https://www.joyceproject.com/notes/5E-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "c0-bJZUBeQi-aLQff7Jj",
+      "title": "Twining stresses",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "twining stresses,",
+      "order": 75,
+      "url": "https://www.joyceproject.com/notes/c0-bJZUBeQi-aLQff7Jj"
+    },
+    {
+      "id": "LE-bJZUBeQi-aLQfd7Cb",
+      "title": "Cloud cover",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "A cloud began to cover the sun slowly, / warm running sunlight / Warm sunshine merrying over the sea",
+      "order": 76,
+      "url": "https://www.joyceproject.com/notes/LE-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "1k-bJZUBeQi-aLQfe7F3",
+      "title": "Bitter waters",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "a bowl of bitter waters.",
+      "order": 77,
+      "url": "https://www.joyceproject.com/notes/1k-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "YE-bJZUBeQi-aLQfd7Cb",
+      "title": "Feather fans",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "feather fans",
+      "order": 78,
+      "url": "https://www.joyceproject.com/notes/YE-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "e0-bJZUBeQi-aLQfe7B3",
+      "title": "Dancecards",
+      "color": "#9C632A",
+      "tag": "Dublin",
+      "snippet": "dancecards",
+      "order": 79,
+      "url": "https://www.joyceproject.com/notes/e0-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "lE-bJZUBeQi-aLQfd6-b",
+      "title": "old Royce sing",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "old Royce sing / in the pantomime of Turko the terrible",
+      "order": 80,
+      "url": "https://www.joyceproject.com/notes/lE-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "sk-bJZUBeQi-aLQfe7F3",
+      "title": "Invisibility",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "I am the boy / That can enjoy / Invisibility.",
+      "order": 81,
+      "url": "https://www.joyceproject.com/notes/sk-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "qU-bJZUBeQi-aLQfd6-b",
+      "title": "Akasic records",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "memory of nature",
+      "order": 82,
+      "url": "https://www.joyceproject.com/notes/qU-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "qk-bJZUBeQi-aLQff7Jj",
+      "title": "Squashed lice",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "blood of squashed lice",
+      "order": 83,
+      "url": "https://www.joyceproject.com/notes/qk-bJZUBeQi-aLQff7Jj"
+    },
+    {
+      "id": "j0-bJZUBeQi-aLQfd66b",
+      "title": "Staring out of death",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "On me alone.",
+      "order": 84,
+      "url": "https://www.joyceproject.com/notes/j0-bJZUBeQi-aLQfd66b"
+    },
+    {
+      "id": "j0-bJZUBeQi-aLQfe7B3",
+      "title": "Liliata rutilantium",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "Liliata rutilantium te confessorum turma circumdet: iubilantium te virginum chorus excipiat.",
+      "order": 85,
+      "url": "https://www.joyceproject.com/notes/j0-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "zU-bJZUBeQi-aLQfd6-b",
+      "title": "Ghoul",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "Ghoul! Chewer of corpses!",
+      "order": 86,
+      "url": "https://www.joyceproject.com/notes/zU-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "5E-bJZUBeQi-aLQfd6-b",
+      "title": "No, mother",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "No, mother.",
+      "order": 87,
+      "url": "https://www.joyceproject.com/notes/5E-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "SU-bJZUBeQi-aLQfd6-b",
+      "title": "Druids",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "druids",
+      "order": 88,
+      "url": "https://www.joyceproject.com/notes/SU-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "Z0-bJZUBeQi-aLQfd6-b",
+      "title": "Coronation Day",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "O, won&#x27;t we have a merry time, / Drinking whisky, beer and wine! / On coronation,",
+      "order": 89,
+      "url": "https://www.joyceproject.com/notes/Z0-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "vE-bJZUBeQi-aLQfe7F3",
+      "title": "Clongowes",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "Clongowes",
+      "order": 90,
+      "url": "https://www.joyceproject.com/notes/vE-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "_0-bJZUBeQi-aLQfe7F3",
+      "title": "Server",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "A server of a servant.",
+      "order": 91,
+      "url": "https://www.joyceproject.com/notes/_0-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "aE-bJZUBeQi-aLQff7Jj",
+      "title": "Tower livingroom",
+      "color": "#9C632A",
+      "tag": "Dublin",
+      "snippet": "In the gloomy domed livingroom of the tower Buck Mulligan&#x27;s gowned form moved briskly about the hearth to and fro, hiding and revealing its yellow glow. Two shafts of soft daylight fell across the flagged floor from the high barbacans / rose from the hammock where it had been sitting, went to the doorway and pulled open the inner doors. / holdfast of the hammock",
+      "order": 92,
+      "url": "https://www.joyceproject.com/notes/aE-bJZUBeQi-aLQff7Jj"
+    },
+    {
+      "id": "GU-bJZUBeQi-aLQfe7F3",
+      "title": "Huge key",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "the key / the huge key",
+      "order": 93,
+      "url": "https://www.joyceproject.com/notes/GU-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "HU-bJZUBeQi-aLQfd6-b",
+      "title": "Janey Mack",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "Janey Mack",
+      "order": 94,
+      "url": "https://www.joyceproject.com/notes/HU-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "fE-bJZUBeQi-aLQfe7B3",
+      "title": "Melting",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "as the candle remarked when...",
+      "order": 95,
+      "url": "https://www.joyceproject.com/notes/fE-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "w0-bJZUBeQi-aLQfd6-b",
+      "title": "Crossed",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "In nomine Patris et Filii et Spiritus Sancti. / crossed himself piously",
+      "order": 96,
+      "url": "https://www.joyceproject.com/notes/w0-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "D0-bJZUBeQi-aLQfd7Cb",
+      "title": "Mother Grogan",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "old mother Grogan",
+      "order": 97,
+      "url": "https://www.joyceproject.com/notes/D0-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "aU-bJZUBeQi-aLQfd7Cb",
+      "title": "Dundrum press",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "That&#x27;s folk, he said very earnestly, for your book, Haines. Five lines of text and ten pages of notes about the folk and / the fishgods of Dundrum. Printed by the weird sisters in the year of the big wind. / in the Mabinogion or is it in the Upanishads?",
+      "order": 98,
+      "url": "https://www.joyceproject.com/notes/aU-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "Ek-bJZUBeQi-aLQfe7F3",
+      "title": "Mary Ann",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "Mary Ann. / For old Mary Ann / She doesn&#x27;t care a damn.",
+      "order": 99,
+      "url": "https://www.joyceproject.com/notes/Ek-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "5U-bJZUBeQi-aLQfe7F3",
+      "title": "Prepuces",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "collector of prepuces.",
+      "order": 100,
+      "url": "https://www.joyceproject.com/notes/5U-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "bU-bJZUBeQi-aLQfe7F3",
+      "title": "Breasts",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "rich white / milk, not hers. Old shrunken paps.",
+      "order": 101,
+      "url": "https://www.joyceproject.com/notes/bU-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "QE-bJZUBeQi-aLQfe7F3",
+      "title": "Tilly",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "tilly",
+      "order": 102,
+      "url": "https://www.joyceproject.com/notes/QE-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "l0-bJZUBeQi-aLQfd66b",
+      "title": "Maybe a messenger",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "maybe a messenger. / lowly form of an immortal",
+      "order": 103,
+      "url": "https://www.joyceproject.com/notes/l0-bJZUBeQi-aLQfd66b"
+    },
+    {
+      "id": "fU-bJZUBeQi-aLQfd6-b",
+      "title": "Shan Van Vocht",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "Silk of the kine and poor old woman",
+      "order": 104,
+      "url": "https://www.joyceproject.com/notes/fU-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "xU-bJZUBeQi-aLQff7Jj",
+      "title": "Midland bogs",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "Living in a bogswamp",
+      "order": 105,
+      "url": "https://www.joyceproject.com/notes/xU-bJZUBeQi-aLQff7Jj"
+    },
+    {
+      "id": "o0-bJZUBeQi-aLQff7Jj",
+      "title": "Shrive and oil",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "shrive and oil for the grave",
+      "order": 106,
+      "url": "https://www.joyceproject.com/notes/o0-bJZUBeQi-aLQff7Jj"
+    },
+    {
+      "id": "6U-bJZUBeQi-aLQfd6-b",
+      "title": "Unclean loins",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "woman&#x27;s unclean loins",
+      "order": 107,
+      "url": "https://www.joyceproject.com/notes/6U-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "ak-bJZUBeQi-aLQfd6-b",
+      "title": "Speak Irish",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "— Irish, Buck Mulligan said. Is there Gaelic on you? / — I thought it was Irish, she said, by the sound of it. Are you from the west, sir?",
+      "order": 108,
+      "url": "https://www.joyceproject.com/notes/ak-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "Pk-bJZUBeQi-aLQfd6-b",
+      "title": "Ask nothing more of me",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "Ask nothing more of me, sweet. All I can give you I give. / Heart of my heart, were it more, / More would be laid at your feet.",
+      "order": 109,
+      "url": "https://www.joyceproject.com/notes/Pk-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "xU-bJZUBeQi-aLQfe7F3",
+      "title": "Time enough",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "Time enough",
+      "order": 110,
+      "url": "https://www.joyceproject.com/notes/xU-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "sE-bJZUBeQi-aLQff7Jj",
+      "title": "Do his duty",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "Ireland expects that every man this day will do his duty.",
+      "order": 111,
+      "url": "https://www.joyceproject.com/notes/sE-bJZUBeQi-aLQff7Jj"
+    },
+    {
+      "id": "RU-bJZUBeQi-aLQfe7J3",
+      "title": "National Library",
+      "color": "#9C632A",
+      "tag": "Dublin",
+      "snippet": "national library",
+      "order": 112,
+      "url": "https://www.joyceproject.com/notes/RU-bJZUBeQi-aLQfe7J3"
+    },
+    {
+      "id": "TU-bJZUBeQi-aLQfd7Cb",
+      "title": "Monthly wash",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "washing once a month",
+      "order": 113,
+      "url": "https://www.joyceproject.com/notes/TU-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "F0-bJZUBeQi-aLQfd6-b",
+      "title": "Gulfstream",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "All Ireland is washed by the gulfstream",
+      "order": 114,
+      "url": "https://www.joyceproject.com/notes/F0-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "sk-bJZUBeQi-aLQff7Jj",
+      "title": "Haines's chapbook",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "I intend to make a collection of your sayings",
+      "order": 115,
+      "url": "https://www.joyceproject.com/notes/sk-bJZUBeQi-aLQff7Jj"
+    },
+    {
+      "id": "v0-bJZUBeQi-aLQfd6-b",
+      "title": "Agenbite of inwit",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "They wash and tub and scrub. Agenbite of inwit. Conscience. Yet here&#x27;s a spot.",
+      "order": 116,
+      "url": "https://www.joyceproject.com/notes/v0-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "bE-bJZUBeQi-aLQfe7F3",
+      "title": "Hear him on Hamlet",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "hear him on Hamlet / your idea of Hamlet",
+      "order": 117,
+      "url": "https://www.joyceproject.com/notes/bE-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "sU-bJZUBeQi-aLQfe7B3",
+      "title": "Bullockbefriending",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "your hoof",
+      "order": 118,
+      "url": "https://www.joyceproject.com/notes/sU-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "uk-bJZUBeQi-aLQfe7B3",
+      "title": "Usurper",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "Why don&#x27;t you play them as I do? / Usurper.",
+      "order": 119,
+      "url": "https://www.joyceproject.com/notes/uk-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "l0-bJZUBeQi-aLQfe7F3",
+      "title": "Stripped of his garments",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "stripped of his garments.",
+      "order": 120,
+      "url": "https://www.joyceproject.com/notes/l0-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "Rk-bJZUBeQi-aLQfd6-b",
+      "title": "I contradict myself",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "Contradiction. Do I contradict myself? Very well then",
+      "order": 121,
+      "url": "https://www.joyceproject.com/notes/Rk-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "xU-bJZUBeQi-aLQfe7B3",
+      "title": "Latin quarter hat",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "Latin quarter hat",
+      "order": 122,
+      "url": "https://www.joyceproject.com/notes/xU-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "nE-bJZUBeQi-aLQff7Jj",
+      "title": "Did I not take it up?",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "Stephen picked it up and put it on.",
+      "order": 123,
+      "url": "https://www.joyceproject.com/notes/nE-bJZUBeQi-aLQff7Jj"
+    },
+    {
+      "id": "dU-bJZUBeQi-aLQff7Jj",
+      "title": "You have eaten all",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "You have eaten all we left, I suppose.",
+      "order": 124,
+      "url": "https://www.joyceproject.com/notes/dU-bJZUBeQi-aLQff7Jj"
+    },
+    {
+      "id": "R9HAb5oBzx4jaRzNcDtm",
+      "title": "That's not Mulcahy",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "— And going forth he met Butterly.",
+      "order": 125,
+      "url": "https://www.joyceproject.com/notes/R9HAb5oBzx4jaRzNcDtm"
+    },
+    {
+      "id": "EU-bJZUBeQi-aLQfe7F3",
+      "title": "Ashplant",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "ashplant / Its ferrule followed lightly on the path, squealing at his heels. My familiar,",
+      "order": 126,
+      "url": "https://www.joyceproject.com/notes/EU-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "fk-bJZUBeQi-aLQfe7F3",
+      "title": "Down, sir!",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "Down, sir! How dare you, sir!",
+      "order": 127,
+      "url": "https://www.joyceproject.com/notes/fk-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "rE-bJZUBeQi-aLQfd6-b",
+      "title": "Martello towers",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "Martello you call it? / Billy Pitt had them built / omphalos.",
+      "order": 128,
+      "url": "https://www.joyceproject.com/notes/rE-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "5k-bJZUBeQi-aLQfd66b",
+      "title": "French were on the sea",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "French were on the sea",
+      "order": 129,
+      "url": "https://www.joyceproject.com/notes/5k-bJZUBeQi-aLQfd66b"
+    },
+    {
+      "id": "GE-bJZUBeQi-aLQfd7Cb",
+      "title": "Aquinas",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "Thomas Aquinas and the fiftyfive reasons",
+      "order": 130,
+      "url": "https://www.joyceproject.com/notes/GE-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "IU-bJZUBeQi-aLQfe7J3",
+      "title": "Waistcoat",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "primrose waistcoat",
+      "order": 131,
+      "url": "https://www.joyceproject.com/notes/IU-bJZUBeQi-aLQfe7J3"
+    },
+    {
+      "id": "_E-bJZUBeQi-aLQfe7B3",
+      "title": "Wilde and paradoxes",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "Wilde and paradoxes",
+      "order": 132,
+      "url": "https://www.joyceproject.com/notes/_E-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "Gk-bJZUBeQi-aLQfd6-b",
+      "title": "Stole",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "slung his towel stolewise round his neck",
+      "order": 133,
+      "url": "https://www.joyceproject.com/notes/Gk-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "O0-bJZUBeQi-aLQfe7J3",
+      "title": "Japhet",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "Japhet in search of a father!",
+      "order": 134,
+      "url": "https://www.joyceproject.com/notes/O0-bJZUBeQi-aLQfe7J3"
+    },
+    {
+      "id": "Q0-bJZUBeQi-aLQfd6-b",
+      "title": "Sacred pint",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "The sacred pint alone can unbind the tongue of Dedalus",
+      "order": 135,
+      "url": "https://www.joyceproject.com/notes/Q0-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "AE-bJZUBeQi-aLQfe7F3",
+      "title": "Seas' ruler",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "seas&#x27; ruler",
+      "order": 136,
+      "url": "https://www.joyceproject.com/notes/AE-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "6k-bJZUBeQi-aLQfe7B3",
+      "title": "Bullock Harbour",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "the Muglins / Bullock harbour",
+      "order": 137,
+      "url": "https://www.joyceproject.com/notes/6k-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "-0-bJZUBeQi-aLQfe7F3",
+      "title": "Consubstantiality",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "The Father and the Son idea. / the consubstantiality of the Son with the Father",
+      "order": 138,
+      "url": "https://www.joyceproject.com/notes/-0-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "AU-bJZUBeQi-aLQfe7J3",
+      "title": "Panama hat",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "Panama hat",
+      "order": 139,
+      "url": "https://www.joyceproject.com/notes/AU-bJZUBeQi-aLQfe7J3"
+    },
+    {
+      "id": "Kk-bJZUBeQi-aLQfd7Cb",
+      "title": "My father's a bird",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "My mother&#x27;s a jew, my father&#x27;s a bird",
+      "order": 140,
+      "url": "https://www.joyceproject.com/notes/Kk-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "hU-bJZUBeQi-aLQff7Jj",
+      "title": "No free drinks",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "If anyone thinks that I amn&#x27;t divine / He&#x27;ll get no free drinks when I&#x27;m making the wine / But have to drink water and wish it were plain",
+      "order": 141,
+      "url": "https://www.joyceproject.com/notes/hU-bJZUBeQi-aLQff7Jj"
+    },
+    {
+      "id": "7U-bJZUBeQi-aLQfe7F3",
+      "title": "Olivet",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "Olivet&#x27;s breezy",
+      "order": 142,
+      "url": "https://www.joyceproject.com/notes/7U-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "lU-bJZUBeQi-aLQfe7B3",
+      "title": "Fortyfoot hole",
+      "color": "#9C632A",
+      "tag": "Dublin",
+      "snippet": "down towards the fortyfoot hole / creek / the middle of the creek",
+      "order": 143,
+      "url": "https://www.joyceproject.com/notes/lU-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "iU-bJZUBeQi-aLQff7Jj",
+      "title": "Joking Jesus",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "The ballad of joking Jesus",
+      "order": 144,
+      "url": "https://www.joyceproject.com/notes/iU-bJZUBeQi-aLQff7Jj"
+    },
+    {
+      "id": "rU-bJZUBeQi-aLQfd6-b",
+      "title": "Green stone",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "a smooth silver case in which / twinkled a green stone",
+      "order": 145,
+      "url": "https://www.joyceproject.com/notes/rU-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "sE-bJZUBeQi-aLQfd6-b",
+      "title": "Salt bread",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "Now I eat his salt bread.",
+      "order": 146,
+      "url": "https://www.joyceproject.com/notes/sE-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "Sk-bJZUBeQi-aLQfd7Cb",
+      "title": "Your own master",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "You are your own master",
+      "order": 147,
+      "url": "https://www.joyceproject.com/notes/Sk-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "8k-bJZUBeQi-aLQfd66b",
+      "title": "Two masters",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "I am the servant of two masters, Stephen said, an English and an Italian.",
+      "order": 148,
+      "url": "https://www.joyceproject.com/notes/8k-bJZUBeQi-aLQfd66b"
+    },
+    {
+      "id": "r0-bJZUBeQi-aLQfd6-b",
+      "title": "Crazy queen",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "A crazy queen, old and jealous. Kneel down before me.",
+      "order": 149,
+      "url": "https://www.joyceproject.com/notes/r0-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "7E-bJZUBeQi-aLQfd6-b",
+      "title": "History is to blame",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "It seems history is to blame.",
+      "order": 150,
+      "url": "https://www.joyceproject.com/notes/7E-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "TU-bJZUBeQi-aLQfe7F3",
+      "title": "Creed",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "et unam sanctam catholicam / et apostolicam ecclesiam: the slow growth and change of rite and dogma like his own rare thoughts, a chemistry of stars. Symbol of the apostles",
+      "order": 151,
+      "url": "https://www.joyceproject.com/notes/TU-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "u0-bJZUBeQi-aLQfe7B3",
+      "title": "Mass for Pope Marcellus",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "mass for pope Marcellus",
+      "order": 152,
+      "url": "https://www.joyceproject.com/notes/u0-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "nk-bJZUBeQi-aLQfd6-b",
+      "title": "Archangel Michael",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "the vigilant angel of the church militant / Michael&#x27;s host,",
+      "order": 153,
+      "url": "https://www.joyceproject.com/notes/nk-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "6k-bJZUBeQi-aLQfd6-b",
+      "title": "Weave the wind",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "weave the wind",
+      "order": 154,
+      "url": "https://www.joyceproject.com/notes/6k-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "g0-bJZUBeQi-aLQfe7F3",
+      "title": "Applause",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "Hear, hear! Prolonged applause. Zut! Nom de Dieu!",
+      "order": 155,
+      "url": "https://www.joyceproject.com/notes/g0-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "t0-bJZUBeQi-aLQfe7F3",
+      "title": "German Jews",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "I don&#x27;t want to see my country fall into the hands of German jews either. That&#x27;s our national problem, I&#x27;m afraid, just now.",
+      "order": 156,
+      "url": "https://www.joyceproject.com/notes/t0-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "_U-bJZUBeQi-aLQfe7F3",
+      "title": "Five fathoms",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "five fathoms",
+      "order": 157,
+      "url": "https://www.joyceproject.com/notes/_U-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "-U-bJZUBeQi-aLQfe7B3",
+      "title": "High tide",
+      "color": "#9C632A",
+      "tag": "Dublin",
+      "snippet": "the tide comes in about one",
+      "order": 158,
+      "url": "https://www.joyceproject.com/notes/-U-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "J0-bJZUBeQi-aLQfd7Cb",
+      "title": "Seal's head",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "moved slowly frogwise his green legs in the deep jelly of the water / A sleek brown head, a seal&#x27;s",
+      "order": 159,
+      "url": "https://www.joyceproject.com/notes/J0-bJZUBeQi-aLQfd7Cb"
+    },
+    {
+      "id": "XU-bJZUBeQi-aLQfd6-b",
+      "title": "Mullingar",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "Westmeath.",
+      "order": 160,
+      "url": "https://www.joyceproject.com/notes/XU-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "TE-bJZUBeQi-aLQfe7F3",
+      "title": "Alec Bannon",
+      "color": "#307EE3",
+      "tag": "The Writer",
+      "snippet": "With the Bannons.",
+      "order": 161,
+      "url": "https://www.joyceproject.com/notes/TE-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "rk-bJZUBeQi-aLQfe7B3",
+      "title": "Photo girl",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "Photo girl",
+      "order": 162,
+      "url": "https://www.joyceproject.com/notes/rk-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "2k-bJZUBeQi-aLQfe7B3",
+      "title": "Nimbus and niche",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "garland of grey hair / nimbus in a niche",
+      "order": 163,
+      "url": "https://www.joyceproject.com/notes/2k-bJZUBeQi-aLQfe7B3"
+    },
+    {
+      "id": "TU-bJZUBeQi-aLQfd6-b",
+      "title": "Uebermensch",
+      "color": "#F59627",
+      "tag": "Literature",
+      "snippet": "My twelfth rib is gone, he cried. I&#x27;m the Uebermensch. / He who stealeth from the poor lendeth to the Lord. Thus spake Zarathustra.",
+      "order": 164,
+      "url": "https://www.joyceproject.com/notes/TU-bJZUBeQi-aLQfd6-b"
+    },
+    {
+      "id": "pU-bJZUBeQi-aLQfe7F3",
+      "title": "Toothless",
+      "color": "#CF2929",
+      "tag": "The Body",
+      "snippet": "Toothless Kinch",
+      "order": 165,
+      "url": "https://www.joyceproject.com/notes/pU-bJZUBeQi-aLQfe7F3"
+    },
+    {
+      "id": "CU-bJZUBeQi-aLQfe7J3",
+      "title": "Wild Irish",
+      "color": "#40B324",
+      "tag": "Ireland",
+      "snippet": "wild Irish",
+      "order": 166,
+      "url": "https://www.joyceproject.com/notes/CU-bJZUBeQi-aLQfe7J3"
+    },
+    {
+      "id": "bE-bJZUBeQi-aLQfd7Cb",
+      "title": "Quarter to",
+      "color": "#AB59C2",
+      "tag": "Performances",
+      "snippet": "Liliata rutilantium. / Turma circumdet. / Iubilantium te virginum.",
+      "order": 167,
+      "url": "https://www.joyceproject.com/notes/bE-bJZUBeQi-aLQfd7Cb"
+    }
+  ],
+  "edges": [
+    {
+      "source": "e0-bJZUBeQi-aLQfd66b",
+      "target": "fk-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "2k-bJZUBeQi-aLQfd6-b",
+      "target": "fk-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "M0-bJZUBeQi-aLQfe7J3",
+      "target": "fk-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "fk-bJZUBeQi-aLQfe7B3",
+      "target": "nk-bJZUBeQi-aLQff7Jj",
+      "weight": 1
+    },
+    {
+      "source": "2k-bJZUBeQi-aLQfd6-b",
+      "target": "e0-bJZUBeQi-aLQfd66b",
+      "weight": 1
+    },
+    {
+      "source": "M0-bJZUBeQi-aLQfe7J3",
+      "target": "e0-bJZUBeQi-aLQfd66b",
+      "weight": 1
+    },
+    {
+      "source": "e0-bJZUBeQi-aLQfd66b",
+      "target": "nk-bJZUBeQi-aLQff7Jj",
+      "weight": 2
+    },
+    {
+      "source": "2k-bJZUBeQi-aLQfd6-b",
+      "target": "M0-bJZUBeQi-aLQfe7J3",
+      "weight": 1
+    },
+    {
+      "source": "2k-bJZUBeQi-aLQfd6-b",
+      "target": "nk-bJZUBeQi-aLQff7Jj",
+      "weight": 1
+    },
+    {
+      "source": "M0-bJZUBeQi-aLQfe7J3",
+      "target": "nk-bJZUBeQi-aLQff7Jj",
+      "weight": 1
+    },
+    {
+      "source": "40-bJZUBeQi-aLQfd6-b",
+      "target": "40-bJZUBeQi-aLQfd66b",
+      "weight": 1
+    },
+    {
+      "source": "bk-bJZUBeQi-aLQfd6-b",
+      "target": "e0-bJZUBeQi-aLQfd66b",
+      "weight": 1
+    },
+    {
+      "source": "cU-bJZUBeQi-aLQff7Jj",
+      "target": "e0-bJZUBeQi-aLQfd66b",
+      "weight": 1
+    },
+    {
+      "source": "e0-bJZUBeQi-aLQfd66b",
+      "target": "kk-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "e0-bJZUBeQi-aLQfd66b",
+      "target": "jU-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "bk-bJZUBeQi-aLQfd6-b",
+      "target": "cU-bJZUBeQi-aLQff7Jj",
+      "weight": 1
+    },
+    {
+      "source": "bk-bJZUBeQi-aLQfd6-b",
+      "target": "kk-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "bk-bJZUBeQi-aLQfd6-b",
+      "target": "jU-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "bk-bJZUBeQi-aLQfd6-b",
+      "target": "nk-bJZUBeQi-aLQff7Jj",
+      "weight": 1
+    },
+    {
+      "source": "cU-bJZUBeQi-aLQff7Jj",
+      "target": "kk-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "cU-bJZUBeQi-aLQff7Jj",
+      "target": "jU-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "cU-bJZUBeQi-aLQff7Jj",
+      "target": "nk-bJZUBeQi-aLQff7Jj",
+      "weight": 1
+    },
+    {
+      "source": "jU-bJZUBeQi-aLQfd6-b",
+      "target": "kk-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "kk-bJZUBeQi-aLQfd6-b",
+      "target": "nk-bJZUBeQi-aLQff7Jj",
+      "weight": 1
+    },
+    {
+      "source": "jU-bJZUBeQi-aLQfd6-b",
+      "target": "nk-bJZUBeQi-aLQff7Jj",
+      "weight": 1
+    },
+    {
+      "source": "Pk-bJZUBeQi-aLQfd7Cb",
+      "target": "yU-bJZUBeQi-aLQfd66b",
+      "weight": 1
+    },
+    {
+      "source": "H0-bJZUBeQi-aLQfd6-b",
+      "target": "ok-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "J0-bJZUBeQi-aLQfe7F3",
+      "target": "i0-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "Ek-bJZUBeQi-aLQfd7Cb",
+      "target": "Mk-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "Mk-bJZUBeQi-aLQfe7F3",
+      "target": "lE-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "MU-bJZUBeQi-aLQfe7J3",
+      "target": "Mk-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "1E-bJZUBeQi-aLQfd6-b",
+      "target": "Mk-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "Ek-bJZUBeQi-aLQfd7Cb",
+      "target": "lE-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "Ek-bJZUBeQi-aLQfd7Cb",
+      "target": "MU-bJZUBeQi-aLQfe7J3",
+      "weight": 1
+    },
+    {
+      "source": "1E-bJZUBeQi-aLQfd6-b",
+      "target": "Ek-bJZUBeQi-aLQfd7Cb",
+      "weight": 2
+    },
+    {
+      "source": "MU-bJZUBeQi-aLQfe7J3",
+      "target": "lE-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "1E-bJZUBeQi-aLQfd6-b",
+      "target": "lE-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "1E-bJZUBeQi-aLQfd6-b",
+      "target": "MU-bJZUBeQi-aLQfe7J3",
+      "weight": 1
+    },
+    {
+      "source": "40-bJZUBeQi-aLQfd6-b",
+      "target": "7k-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "Lk-bJZUBeQi-aLQfd7Cb",
+      "target": "aE-bJZUBeQi-aLQfd7Cb",
+      "weight": 1
+    },
+    {
+      "source": "aE-bJZUBeQi-aLQfd7Cb",
+      "target": "r0-bJZUBeQi-aLQff7Jj",
+      "weight": 1
+    },
+    {
+      "source": "Lk-bJZUBeQi-aLQfd7Cb",
+      "target": "r0-bJZUBeQi-aLQff7Jj",
+      "weight": 1
+    },
+    {
+      "source": "3U-bJZUBeQi-aLQfe7F3",
+      "target": "dU-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "3U-bJZUBeQi-aLQfe7F3",
+      "target": "MU-bJZUBeQi-aLQfe7J3",
+      "weight": 1
+    },
+    {
+      "source": "3U-bJZUBeQi-aLQfe7F3",
+      "target": "4U-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "MU-bJZUBeQi-aLQfe7J3",
+      "target": "dU-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "4U-bJZUBeQi-aLQfe7F3",
+      "target": "dU-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "4U-bJZUBeQi-aLQfe7F3",
+      "target": "MU-bJZUBeQi-aLQfe7J3",
+      "weight": 1
+    },
+    {
+      "source": "SE-bJZUBeQi-aLQfd7Cb",
+      "target": "Xk-bJZUBeQi-aLQfd7Cb",
+      "weight": 1
+    },
+    {
+      "source": "dk-bJZUBeQi-aLQfe7B3",
+      "target": "l0-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "FE-bJZUBeQi-aLQfe7J3",
+      "target": "kk-bJZUBeQi-aLQfd66b",
+      "weight": 1
+    },
+    {
+      "source": "FE-bJZUBeQi-aLQfe7J3",
+      "target": "iLe1TJcB31HfjHCgiaLs",
+      "weight": 1
+    },
+    {
+      "source": "DU-bJZUBeQi-aLQfe7F3",
+      "target": "FE-bJZUBeQi-aLQfe7J3",
+      "weight": 1
+    },
+    {
+      "source": "iLe1TJcB31HfjHCgiaLs",
+      "target": "kk-bJZUBeQi-aLQfd66b",
+      "weight": 1
+    },
+    {
+      "source": "DU-bJZUBeQi-aLQfe7F3",
+      "target": "kk-bJZUBeQi-aLQfd66b",
+      "weight": 1
+    },
+    {
+      "source": "DU-bJZUBeQi-aLQfe7F3",
+      "target": "iLe1TJcB31HfjHCgiaLs",
+      "weight": 1
+    },
+    {
+      "source": "B0-bJZUBeQi-aLQfd7Cb",
+      "target": "wU-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "K0-bJZUBeQi-aLQfd6-b",
+      "target": "kU-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "Tk-bJZUBeQi-aLQfd7Cb",
+      "target": "kU-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "i0-bJZUBeQi-aLQff7Jj",
+      "target": "kU-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "K0-bJZUBeQi-aLQfd6-b",
+      "target": "Tk-bJZUBeQi-aLQfd7Cb",
+      "weight": 1
+    },
+    {
+      "source": "K0-bJZUBeQi-aLQfd6-b",
+      "target": "i0-bJZUBeQi-aLQff7Jj",
+      "weight": 1
+    },
+    {
+      "source": "Tk-bJZUBeQi-aLQfd7Cb",
+      "target": "i0-bJZUBeQi-aLQff7Jj",
+      "weight": 1
+    },
+    {
+      "source": "AU-bJZUBeQi-aLQfe7F3",
+      "target": "Q0-bJZUBeQi-aLQfd7Cb",
+      "weight": 1
+    },
+    {
+      "source": "1E-bJZUBeQi-aLQfd6-b",
+      "target": "z0-bJZUBeQi-aLQfd66b",
+      "weight": 1
+    },
+    {
+      "source": "Hk-bJZUBeQi-aLQfe7F3",
+      "target": "z0-bJZUBeQi-aLQfd66b",
+      "weight": 1
+    },
+    {
+      "source": "Ek-bJZUBeQi-aLQfd7Cb",
+      "target": "z0-bJZUBeQi-aLQfd66b",
+      "weight": 1
+    },
+    {
+      "source": "1E-bJZUBeQi-aLQfd6-b",
+      "target": "Hk-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "Ek-bJZUBeQi-aLQfd7Cb",
+      "target": "Hk-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "7k-bJZUBeQi-aLQfe7F3",
+      "target": "DE-bJZUBeQi-aLQfd7Cb",
+      "weight": 1
+    },
+    {
+      "source": "4k-bJZUBeQi-aLQfd6-b",
+      "target": "7k-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "4k-bJZUBeQi-aLQfd6-b",
+      "target": "DE-bJZUBeQi-aLQfd7Cb",
+      "weight": 1
+    },
+    {
+      "source": "K0-bJZUBeQi-aLQfe7J3",
+      "target": "Q0-bJZUBeQi-aLQfe7J3",
+      "weight": 1
+    },
+    {
+      "source": "40-bJZUBeQi-aLQfd66b",
+      "target": "TE-bJZUBeQi-aLQfe7J3",
+      "weight": 1
+    },
+    {
+      "source": "Bk-bJZUBeQi-aLQfe7J3",
+      "target": "TE-bJZUBeQi-aLQfe7J3",
+      "weight": 1
+    },
+    {
+      "source": "EE-bJZUBeQi-aLQfd7Cb",
+      "target": "TE-bJZUBeQi-aLQfe7J3",
+      "weight": 1
+    },
+    {
+      "source": "40-bJZUBeQi-aLQfd66b",
+      "target": "Bk-bJZUBeQi-aLQfe7J3",
+      "weight": 1
+    },
+    {
+      "source": "40-bJZUBeQi-aLQfd66b",
+      "target": "EE-bJZUBeQi-aLQfd7Cb",
+      "weight": 1
+    },
+    {
+      "source": "Bk-bJZUBeQi-aLQfe7J3",
+      "target": "EE-bJZUBeQi-aLQfd7Cb",
+      "weight": 1
+    },
+    {
+      "source": "bk-bJZUBeQi-aLQfd6-b",
+      "target": "pE-bJZUBeQi-aLQff7Jj",
+      "weight": 1
+    },
+    {
+      "source": "40-bJZUBeQi-aLQfd66b",
+      "target": "7k-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "5E-bJZUBeQi-aLQfe7B3",
+      "target": "c0-bJZUBeQi-aLQff7Jj",
+      "weight": 1
+    },
+    {
+      "source": "1k-bJZUBeQi-aLQfe7F3",
+      "target": "LE-bJZUBeQi-aLQfd7Cb",
+      "weight": 1
+    },
+    {
+      "source": "5E-bJZUBeQi-aLQfe7B3",
+      "target": "LE-bJZUBeQi-aLQfd7Cb",
+      "weight": 1
+    },
+    {
+      "source": "LE-bJZUBeQi-aLQfd7Cb",
+      "target": "l0-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "1k-bJZUBeQi-aLQfe7F3",
+      "target": "5E-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "1k-bJZUBeQi-aLQfe7F3",
+      "target": "l0-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "5E-bJZUBeQi-aLQfe7B3",
+      "target": "l0-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "YE-bJZUBeQi-aLQfd7Cb",
+      "target": "e0-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "YE-bJZUBeQi-aLQfd7Cb",
+      "target": "lE-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "e0-bJZUBeQi-aLQfe7B3",
+      "target": "lE-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "qU-bJZUBeQi-aLQfd6-b",
+      "target": "qk-bJZUBeQi-aLQff7Jj",
+      "weight": 1
+    },
+    {
+      "source": "j0-bJZUBeQi-aLQfd66b",
+      "target": "j0-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "1E-bJZUBeQi-aLQfd6-b",
+      "target": "SU-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "LE-bJZUBeQi-aLQfd7Cb",
+      "target": "Z0-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "_0-bJZUBeQi-aLQfe7F3",
+      "target": "vE-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "aE-bJZUBeQi-aLQff7Jj",
+      "target": "jU-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "B0-bJZUBeQi-aLQfd7Cb",
+      "target": "fE-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "QE-bJZUBeQi-aLQfe7F3",
+      "target": "bU-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "bU-bJZUBeQi-aLQfe7F3",
+      "target": "l0-bJZUBeQi-aLQfd66b",
+      "weight": 1
+    },
+    {
+      "source": "bU-bJZUBeQi-aLQfe7F3",
+      "target": "fU-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "QE-bJZUBeQi-aLQfe7F3",
+      "target": "l0-bJZUBeQi-aLQfd66b",
+      "weight": 1
+    },
+    {
+      "source": "QE-bJZUBeQi-aLQfe7F3",
+      "target": "fU-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "fU-bJZUBeQi-aLQfd6-b",
+      "target": "l0-bJZUBeQi-aLQfd66b",
+      "weight": 1
+    },
+    {
+      "source": "iLe1TJcB31HfjHCgiaLs",
+      "target": "o0-bJZUBeQi-aLQff7Jj",
+      "weight": 1
+    },
+    {
+      "source": "6U-bJZUBeQi-aLQfd6-b",
+      "target": "iLe1TJcB31HfjHCgiaLs",
+      "weight": 1
+    },
+    {
+      "source": "6U-bJZUBeQi-aLQfd6-b",
+      "target": "o0-bJZUBeQi-aLQff7Jj",
+      "weight": 1
+    },
+    {
+      "source": "Mk-bJZUBeQi-aLQfe7F3",
+      "target": "Rk-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "EU-bJZUBeQi-aLQfe7F3",
+      "target": "aE-bJZUBeQi-aLQff7Jj",
+      "weight": 1
+    },
+    {
+      "source": "EU-bJZUBeQi-aLQfe7F3",
+      "target": "GU-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "GU-bJZUBeQi-aLQfe7F3",
+      "target": "aE-bJZUBeQi-aLQff7Jj",
+      "weight": 1
+    },
+    {
+      "source": "5k-bJZUBeQi-aLQfd66b",
+      "target": "rE-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "AE-bJZUBeQi-aLQfe7F3",
+      "target": "Xk-bJZUBeQi-aLQfd7Cb",
+      "weight": 1
+    },
+    {
+      "source": "6k-bJZUBeQi-aLQfe7B3",
+      "target": "AE-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "6k-bJZUBeQi-aLQfe7B3",
+      "target": "Xk-bJZUBeQi-aLQfd7Cb",
+      "weight": 1
+    },
+    {
+      "source": "7U-bJZUBeQi-aLQfe7F3",
+      "target": "lU-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "7U-bJZUBeQi-aLQfe7F3",
+      "target": "Mk-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "Mk-bJZUBeQi-aLQfe7F3",
+      "target": "lU-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "EU-bJZUBeQi-aLQfe7F3",
+      "target": "fk-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "EU-bJZUBeQi-aLQfe7F3",
+      "target": "sE-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "fk-bJZUBeQi-aLQfe7B3",
+      "target": "sE-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "TU-bJZUBeQi-aLQfe7F3",
+      "target": "u0-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "TU-bJZUBeQi-aLQfe7F3",
+      "target": "nk-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "-0-bJZUBeQi-aLQfe7F3",
+      "target": "TU-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "7k-bJZUBeQi-aLQfe7F3",
+      "target": "TU-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "6k-bJZUBeQi-aLQfd6-b",
+      "target": "TU-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "nk-bJZUBeQi-aLQfd6-b",
+      "target": "u0-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "-0-bJZUBeQi-aLQfe7F3",
+      "target": "u0-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "7k-bJZUBeQi-aLQfe7F3",
+      "target": "u0-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "6k-bJZUBeQi-aLQfd6-b",
+      "target": "u0-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "-0-bJZUBeQi-aLQfe7F3",
+      "target": "nk-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "7k-bJZUBeQi-aLQfe7F3",
+      "target": "nk-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "6k-bJZUBeQi-aLQfd6-b",
+      "target": "nk-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "-0-bJZUBeQi-aLQfe7F3",
+      "target": "7k-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "-0-bJZUBeQi-aLQfe7F3",
+      "target": "6k-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "6k-bJZUBeQi-aLQfd6-b",
+      "target": "7k-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "-U-bJZUBeQi-aLQfe7B3",
+      "target": "_U-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "J0-bJZUBeQi-aLQfd7Cb",
+      "target": "lU-bJZUBeQi-aLQfe7B3",
+      "weight": 1
+    },
+    {
+      "source": "TE-bJZUBeQi-aLQfe7F3",
+      "target": "XU-bJZUBeQi-aLQfd6-b",
+      "weight": 1
+    },
+    {
+      "source": "TU-bJZUBeQi-aLQfd6-b",
+      "target": "pU-bJZUBeQi-aLQfe7F3",
+      "weight": 1
+    },
+    {
+      "source": "2k-bJZUBeQi-aLQfe7B3",
+      "target": "bE-bJZUBeQi-aLQfd7Cb",
+      "weight": 1
+    }
+  ],
+  "tags": [
+    {
+      "name": "The Writer",
+      "color": "#307EE3"
+    },
+    {
+      "name": "The Body",
+      "color": "#CF2929"
+    },
+    {
+      "name": "Dublin",
+      "color": "#9C632A"
+    },
+    {
+      "name": "Literature",
+      "color": "#F59627"
+    },
+    {
+      "name": "Ireland",
+      "color": "#40B324"
+    },
+    {
+      "name": "Performances",
+      "color": "#AB59C2"
+    }
+  ]
+}
