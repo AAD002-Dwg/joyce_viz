@@ -115,7 +115,16 @@ header h1 span { color: #e8e0d0; font-style: italic; }
 
 #graph-container { flex: 1; position: relative; overflow: hidden; }
 
-svg { width: 100%; height: 100%; }
+/* Canvas edge layer — sits behind the SVG, pixel-matched via CanvasEdges.js */
+#edges-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;   /* clicks pass through to SVG nodes */
+  z-index: 0;
+}
+
+svg { width: 100%; height: 100%; position: relative; z-index: 1; }
 
 .node circle {
   stroke-width: 1.5px;
@@ -137,15 +146,7 @@ svg { width: 100%; height: 100%; }
   stroke-linejoin: round;
 }
 
-.link {
-  stroke: #ffffff;
-  stroke-opacity: 0.07;
-  transition: stroke-opacity 0.1s;
-  pointer-events: none;
-}
-
-.link.highlighted { stroke-opacity: 0.6; }
-.link.faded { stroke-opacity: 0.01; }
+/* .link styles removed — edges are now drawn on <canvas> by CanvasEdges.js */
 
 .order-label {
   font-size: 9px;
@@ -324,4 +325,236 @@ svg { width: 100%; height: 100%; }
   cursor: pointer;
   font-size: 0.7rem;
   text-transform: uppercase;
+}
+
+/* Macro Dashboard Styles */
+#macro-container {
+  flex: 1;
+  padding: 40px;
+  background: #0e0e12;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  overflow-y: auto;
+}
+
+.macro-header {
+  border-bottom: 1px solid #2a2a3a;
+  padding-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.macro-header h2 {
+  font-family: 'Georgia', serif;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 1.4rem;
+  color: #c8bfb0;
+}
+
+.chapter-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 800px;
+}
+
+.chap-filter {
+  font-size: 0.65rem;
+  padding: 3px 8px;
+  border: 1px solid #3a3a50;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  user-select: none;
+  background: #1a1a26;
+  color: #888;
+}
+
+.chap-filter.active {
+  background: #304060;
+  border-color: #6080c0;
+  color: #fff;
+}
+
+.macro-viz {
+  flex: 1;
+  min-height: 400px;
+  position: relative;
+}
+
+.macro-viz svg {
+  width: 100%;
+  height: 100%;
+}
+
+.macro-area {
+  fill-opacity: 0.6;
+  transition: fill-opacity 0.2s;
+  cursor: pointer;
+}
+
+.macro-area:hover {
+  fill-opacity: 0.9;
+}
+
+.macro-axis text {
+  font-size: 10px;
+  fill: #666;
+}
+
+.macro-axis line, .macro-axis path {
+  stroke: #2a2a3a;
+}
+
+.macro-tooltip {
+  position: absolute;
+  background: #1c1c28;
+  border: 1px solid #6080c0;
+  padding: 10px;
+  border-radius: 4px;
+  pointer-events: none;
+  font-size: 0.75rem;
+  z-index: 1000;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+/* ═══════════════════════════════════════════════════════════
+   3D Stratified Graph View
+═══════════════════════════════════════════════════════════ */
+
+#three-container {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  background: #0e0e12;
+}
+
+/* Inner div that 3d-force-graph renders into */
+#three-graph-inner {
+  position: absolute;
+  top: 0; left: 0; width: 100%; height: 100%;
+}
+#three-graph-inner canvas {
+  outline: none;
+  display: block;
+}
+
+/* ── Overlay: absolute panel layer above the canvas ── */
+.three-overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  pointer-events: none;
+  z-index: 10;
+  font-family: 'Georgia', serif;
+}
+
+.three-chapter-badge {
+  position: absolute;
+  top: 18px; left: 20px;
+  font-style: italic;
+  font-size: 0.82rem;
+  color: #7070a0;
+  letter-spacing: 0.06em;
+}
+
+/* Camera preset buttons */
+.three-camera-presets {
+  position: absolute;
+  top: 14px; right: 18px;
+  display: flex;
+  gap: 6px;
+  pointer-events: auto;
+}
+.three-preset-btn {
+  padding: 4px 10px;
+  background: rgba(20, 20, 32, 0.82);
+  border: 1px solid #3a3a55;
+  color: #8080b0;
+  font-family: inherit;
+  font-size: 0.68rem;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+  cursor: pointer;
+  backdrop-filter: blur(6px);
+  transition: border-color 0.15s, color 0.15s;
+}
+.three-preset-btn:hover {
+  border-color: #6060a0;
+  color: #c0c0f0;
+}
+
+/* Z-layer legend — bottom left */
+.three-layer-legend {
+  position: absolute;
+  bottom: 44px; left: 16px;
+  background: rgba(12, 12, 20, 0.85);
+  border: 1px solid #2a2a3a;
+  border-radius: 6px;
+  padding: 12px 14px;
+  backdrop-filter: blur(8px);
+  min-width: 215px;
+}
+.tll-header {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #4a4a65;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #222235;
+  padding-bottom: 5px;
+}
+.tll-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 7px;
+}
+.tll-z {
+  color: #3a3a58;
+  font-family: monospace;
+  font-size: 0.6rem;
+  width: 36px;
+  text-align: right;
+  flex-shrink: 0;
+}
+.tll-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.tll-text { display: flex; flex-direction: column; gap: 1px; }
+.tll-name { color: #b0a8a0; font-size: 0.72rem; }
+.tll-desc { color: #48485a; font-size: 0.58rem; font-style: italic; }
+
+/* Geometry legend — bottom right */
+.three-geom-legend {
+  position: absolute;
+  bottom: 44px; right: 16px;
+  background: rgba(12, 12, 20, 0.85);
+  border: 1px solid #2a2a3a;
+  border-radius: 6px;
+  padding: 12px 14px;
+  backdrop-filter: blur(8px);
+}
+.tgl-grid { display: flex; flex-direction: column; gap: 5px; margin-top: 2px; }
+.tgl-item {
+  display: flex; align-items: center; gap: 8px;
+  font-size: 0.7rem; color: #6060808;
+}
+.tgl-item { color: #60608a; }
+.tgl-sym { font-size: 1rem; width: 18px; text-align: center; }
+
+/* Bottom hint bar */
+.three-hint {
+  position: absolute;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.62rem;
+  color: #2a2a48;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
 }

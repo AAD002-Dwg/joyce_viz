@@ -11,9 +11,13 @@
  *   node build_chapter.js all     → outputs all 18 chapters
  */
 
-const https  = require('https');
-const fs     = require('fs');
-const path   = require('path');
+import https from 'https';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const BASE = 'https://joyceproject.com';
 
@@ -90,28 +94,63 @@ function parseChapter(htmlSource, notesMap) {
   nodes.forEach((n, i) => { n.order = i; });
 
   // Build paragraph co-occurrence edges
-  const paras   = htmlSource.split(/<\/p>|<\/h[1-6]>/);
+  // Using a more inclusive split to capture blockquotes, lists, and headers
+  const paras   = htmlSource.split(/<\/(?:p|h[1-6]|blockquote|li|div|hgroup)>/i);
   const re2     = /<a href="([^"]+)" data-color="[^"]+" data-tag="[^"]*" data-type="annotation">(.*?)<\/a>/gs;
-  const edgeMap = {};
-
+  
+  // 1. Identify IDs for each non-empty paragraph/block
+  const parasIds = [];
   paras.forEach(para => {
     const ids = new Set();
     re2.lastIndex = 0;
     while ((m = re2.exec(para)) !== null) {
       if (m[2].replace(/<[^>]+>/g, '').trim()) ids.add(m[1]);
     }
-    const arr = [...ids];
-    for (let i = 0; i < arr.length; i++) {
-      for (let j = i + 1; j < arr.length; j++) {
-        const key = [arr[i], arr[j]].sort().join('|||');
-        edgeMap[key] = (edgeMap[key] || 0) + 1;
+    if (ids.size > 0) parasIds.push([...ids]);
+  });
+
+  const edgeMap = {};
+
+  // 2. Intra-paragraph connections (Direct - High Strength)
+  parasIds.forEach(ids => {
+    for (let i = 0; i < ids.length; i++) {
+      for (let j = i + 1; j < ids.length; j++) {
+        const key = [ids[i], ids[j]].sort().join('|||');
+        if (!edgeMap[key]) edgeMap[key] = { weight: 0, type: 'direct' };
+        edgeMap[key].weight += 1.0;
+        edgeMap[key].type = 'direct';
       }
     }
   });
 
-  const edges = Object.entries(edgeMap).map(([key, weight]) => {
+  // 3. Inter-paragraph connections (Extended Proximity Window: 3 paragraphs)
+  for (let k = 0; k < parasIds.length - 1; k++) {
+    const current = parasIds[k];
+    
+    // Look ahead up to 3 annotated blocks
+    for (let offset = 1; offset <= 3; offset++) {
+      if (k + offset >= parasIds.length) break;
+      
+      const next = parasIds[k + offset];
+      // Weight decays with paragraph distance: 0.5, 0.2, 0.1
+      const addedWeight = offset === 1 ? 0.5 : (offset === 2 ? 0.2 : 0.1);
+
+      for (let i = 0; i < current.length; i++) {
+        for (let j = 0; j < next.length; j++) {
+          const key = [current[i], next[j]].sort().join('|||');
+          if (current[i] === next[j]) continue;
+          
+          if (!edgeMap[key]) edgeMap[key] = { weight: 0, type: 'extended' };
+          edgeMap[key].weight += addedWeight;
+          // Maintain 'direct' type if any component was direct
+        }
+      }
+    }
+  }
+
+  const edges = Object.entries(edgeMap).map(([key, data]) => {
     const [source, target] = key.split('|||');
-    return { source, target, weight };
+    return { source, target, weight: parseFloat(data.weight.toFixed(2)), type: data.type };
   });
 
   return { nodes, edges, tags: TAGS };
@@ -129,7 +168,7 @@ async function buildChapter(chapterNumber, chaptersIndex, notesMap) {
   process.stdout.write(' parsing...');
 
   const graph    = parseChapter(data.html_source, notesMap);
-  const outFile  = path.join(__dirname, `ch${chapter.number}_graph.json`);
+  const outFile  = path.join(__dirname, 'public', `ch${chapter.number}_graph.json`);
 
   fs.writeFileSync(outFile, JSON.stringify(graph, null, 2));
   console.log(` ✓  ${graph.nodes.length} nodes, ${graph.edges.length} edges → ${path.basename(outFile)}`);

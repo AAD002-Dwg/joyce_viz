@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Joyce Project — Visualization 2.0</title>
   <script src="https://d3js.org/d3.v7.min.js"></script>
+  <link rel="stylesheet" href="/src/styles/style.css">
 </head>
 <body>
   <header>
@@ -31,8 +32,10 @@
     </select>
     <div class="legend" id="legend"></div>
     <div class="controls">
-      <button class="btn active" id="btnNetwork">Network</button>
-      <button class="btn" id="btnTimeline">Timeline</button>
+      <button class="btn active" id="btnNetwork">Red</button>
+      <button class="btn" id="btnTimeline">Cronología</button>
+      <button class="btn" id="btnMacro">Sinfonía</button>
+      <button class="btn" id="btn3D">🔮 3D</button>
       <div class="ctrl-sep"></div>
       <label class="ctrl-label">
         <input type="checkbox" id="showLabels" checked> Labels
@@ -46,6 +49,11 @@
         <div id="tooltip"></div>
         <div id="info">Loading chapter...</div>
     </div>
+    
+    <div id="macro-container" style="display:none;"></div>
+
+    <!-- 3D Stratified Graph -->
+    <div id="three-container" style="display:none;"></div>
     
     <!-- Stats Panel -->
     <div id="stats-container" class="stats-panel"></div>

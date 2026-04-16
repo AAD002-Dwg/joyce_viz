@@ -1,6 +1,8 @@
-import './styles/style.css';
 import { StatsPanel } from './components/StatsPanel.js';
 import { ArchModule } from './components/ArchModule.js';
+import { MacroDashboard } from './components/MacroDashboard.js';
+import { CanvasEdges } from './components/CanvasEdges.js';
+import { ThreeModule } from './components/ThreeModule.js';
 
 // Configuration
 const CHAPTER_TITLES = {
@@ -19,22 +21,33 @@ let activeFilters = new Set(TAG_ORDER);
 let selectedNode = null;
 
 // D3 State
-let nodes, edges, nodesById, link, node, labels, sim;
+let nodes, edges, nodesById, node, labels, sim;
 let W, H;
 
 // Modules
 const stats = new StatsPanel('stats-container');
 const arch = new ArchModule('arch-container');
+const canvasEdges = new CanvasEdges('graph-container');
+const threeModule = new ThreeModule('three-container');
+let macro = null;
 
-// SVG Setup
+// Persistent state for the current chapter (needed to reload 3D on switch)
+let currentGraphData = null;
+
+// SVG Setup — NOTE: no more <line> elements in the SVG.
+// Edges are drawn by CanvasEdges on a <canvas> layer.
 const svg = d3.select('#graph');
 const mainEl = document.getElementById('graph-container');
 const gRoot = svg.append('g').attr('class', 'root');
-const gLinks = gRoot.append('g').attr('class', 'links');
 const gNodes = gRoot.append('g').attr('class', 'nodes');
 
 const zoom = d3.zoom().scaleExtent([0.15, 6])
-  .on('zoom', e => gRoot.attr('transform', e.transform));
+  .on('zoom', e => {
+    gRoot.attr('transform', e.transform);
+    // Keep canvas edges in sync with the D3 zoom
+    canvasEdges.setTransform(e.transform);
+    canvasEdges.draw();
+  });
 svg.call(zoom);
 
 const tooltip = document.getElementById('tooltip');
@@ -61,8 +74,8 @@ function applyHighlight(d) {
   const neighborSet = new Set(neighbors.map(n => n.id));
   node.classed('faded', n => n.id !== d.id && !neighborSet.has(n.id));
   node.classed('highlighted', n => n.id === d.id || neighborSet.has(n.id));
-  link.classed('highlighted', e => (e.source.id ?? e.source) === d.id || (e.target.id ?? e.target) === d.id);
-  link.classed('faded', e => (e.source.id ?? e.source) !== d.id && (e.target.id ?? e.target) !== d.id);
+  // Delegate edge highlight to canvas module
+  canvasEdges.applyHighlight(d.id, neighborSet);
   return neighbors;
 }
 
@@ -72,11 +85,8 @@ function applyFilters() {
     el.classList.toggle('dimmed', !activeFilters.has(el.dataset.tag));
   });
   node.classed('dimmed', d => !activeFilters.has(d.tag));
-  link.classed('faded', d => {
-    const s = nodesById[d.source.id ?? d.source];
-    const t = nodesById[d.target.id ?? d.target];
-    return !activeFilters.has(s?.tag) || !activeFilters.has(t?.tag);
-  });
+  // Delegate filter to canvas module
+  canvasEdges.applyFilters(activeFilters, nodesById);
 }
 
 function moveTooltip(event) {
@@ -92,7 +102,7 @@ function moveTooltip(event) {
 function deselect() {
   selectedNode = null;
   if (node) { node.classed('faded', false).classed('highlighted', false); }
-  if (link) { link.classed('highlighted', false).classed('faded', false); }
+  canvasEdges.clearHighlight();
   applyFilters();
   tooltip.classList.remove('pinned');
   tooltip.style.display = 'none';
@@ -114,10 +124,64 @@ function buildTooltipHTML(d, neighbors, pinned) {
   `;
 }
 
+async function showMacroView() {
+    currentView = 'macro';
+    deselect();
+    sim?.stop();
+
+    // UI Toggles
+    document.getElementById('graph-container').style.display = 'none';
+    document.getElementById('stats-container').style.display = 'none';
+    document.getElementById('macro-container').style.display = 'flex';
+
+    document.querySelectorAll('.btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('btnMacro').classList.add('active');
+
+    if (!macro) {
+        macro = new MacroDashboard('macro-container', (chapterNum) => {
+            document.getElementById('chapterSelect').value = chapterNum;
+            document.getElementById('chapterSelect').dispatchEvent(new Event('change'));
+        });
+        await macro.init();
+    } else {
+        macro.render();
+    }
+}
+
+function hideMacroView() {
+    document.getElementById('graph-container').style.display = 'block';
+    document.getElementById('stats-container').style.display = 'flex';
+    document.getElementById('macro-container').style.display = 'none';
+}
+
+function showThreeView() {
+    currentView = '3d';
+    deselect();
+    sim?.stop();
+    canvasEdges.setVisible(false);
+
+    document.getElementById('graph-container').style.display = 'none';
+    document.getElementById('stats-container').style.display = 'none';
+    document.getElementById('macro-container').style.display = 'none';
+    document.getElementById('three-container').style.display = 'block';
+
+    document.querySelectorAll('.btn').forEach(b => b.classList.remove('active'));
+    document.getElementById('btn3D').classList.add('active');
+
+    // Load or reload with current chapter data
+    if (currentGraphData) {
+        threeModule.load(currentGraphData, currentTitle);
+    }
+}
+
+function hideThreeView() {
+    threeModule.pause();
+    document.getElementById('three-container').style.display = 'none';
+}
+
 function loadGraph(graphData) {
   if (sim) sim.stop();
   deselect();
-  gLinks.selectAll('*').remove();
   gNodes.selectAll('*').remove();
   gRoot.selectAll('.tl-deco').remove();
 
@@ -125,6 +189,13 @@ function loadGraph(graphData) {
   edges = graphData.edges.map(d => ({ ...d }));
   nodesById = {};
   nodes.forEach(n => { nodesById[n.id] = n; });
+
+  // Store data for 3D view
+  currentGraphData = graphData;
+
+  // Pass edges to the canvas layer
+  canvasEdges.setEdges(edges);
+  canvasEdges.setVisible(true);
 
   const deg = {};
   edges.forEach(e => {
@@ -136,11 +207,7 @@ function loadGraph(graphData) {
     .range([4, 16]);
   nodes.forEach(n => { n.radius = rScale(deg[n.id] || 0); });
 
-  link = gLinks.selectAll('line')
-    .data(edges).join('line')
-    .attr('class', 'link')
-    .attr('stroke-width', d => Math.sqrt(d.weight));
-
+  // Only nodes rendered in SVG — edges are on canvas
   node = gNodes.selectAll('g')
     .data(nodes).join('g')
     .attr('class', 'node')
@@ -177,7 +244,7 @@ function loadGraph(graphData) {
     .on('mouseleave', function () {
       if (selectedNode) return;
       node.classed('faded', false).classed('highlighted', false);
-      link.classed('highlighted', false).classed('faded', false);
+      canvasEdges.clearHighlight();
       applyFilters();
       tooltip.style.display = 'none';
     })
@@ -211,11 +278,11 @@ function loadGraph(graphData) {
     .force('y', d3.forceY(H / 2).strength(0.03))
     .on('tick', () => {
       if (currentView !== 'network') return;
-      link.attr('x1', d => d.source.x).attr('y1', d => d.source.y)
-        .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+      // SVG nodes
       node.attr('transform', d => `translate(${d.x},${d.y})`);
-    })
-    .on('end', () => fitToView(800));
+      // Canvas edges (they read x/y directly from node objects — just redraw)
+      canvasEdges.draw();
+    });
 
   // Update modules
   stats.update({ nodes, edges });
@@ -237,8 +304,13 @@ function fitToView(dur) {
 }
 
 // -- Event Listeners
+document.getElementById('btnMacro').addEventListener('click', showMacroView);
+document.getElementById('btn3D').addEventListener('click', showThreeView);
+
 document.getElementById('chapterSelect').addEventListener('change', async function () {
-  const num = parseInt(this.value, 10);
+    hideMacroView();
+    hideThreeView();
+    const num = parseInt(this.value, 10);
   const title = CHAPTER_TITLES[num];
   this.disabled = true;
   document.getElementById('info').textContent = `Loading ${title}…`;
@@ -257,20 +329,27 @@ document.getElementById('chapterSelect').addEventListener('change', async functi
 });
 
 document.getElementById('btnNetwork').addEventListener('click', () => {
+    hideMacroView();
+    hideThreeView();
     currentView = 'network';
     document.getElementById('btnNetwork').classList.add('active');
     document.getElementById('btnTimeline').classList.remove('active');
     gRoot.selectAll('.tl-deco').remove();
-    link.style('display', null);
+    canvasEdges.setVisible(true);
     labels.attr('x', d => d.radius + 3).attr('y', 3);
     sim.alpha(0.4).restart();
 });
 
 document.getElementById('btnTimeline').addEventListener('click', () => {
+    hideMacroView();
+    hideThreeView();
     currentView = 'timeline';
     document.getElementById('btnTimeline').classList.add('active');
     document.getElementById('btnNetwork').classList.remove('active');
     sim.stop();
+
+    // Hide canvas edges in timeline view (no positional meaning)
+    canvasEdges.setVisible(false);
 
     const pad = { top: 48, right: 30, bottom: 32, left: 116 };
     const innerW = W - pad.left - pad.right;
@@ -308,7 +387,6 @@ document.getElementById('btnTimeline').addEventListener('click', () => {
         buckets[key]++;
     });
 
-    link.style('display', 'none');
     labels.attr('x', 0).attr('y', d => -(d.radius + 3));
     gNodes.selectAll('g.node')
         .transition().duration(650).ease(d3.easeCubicInOut)
@@ -345,15 +423,6 @@ TAG_ORDER.forEach(tagName => {
   });
   legendEl.appendChild(item);
 });
-
-// -- Custom Arch Toggle Button in Nav
-// const archBtn = document.createElement('button');
-// archBtn.className = 'btn';
-// archBtn.id = 'btnArch';
-// archBtn.textContent = 'Arch Triggers';
-// archBtn.style.background = '#1a3a3a';
-// archBtn.addEventListener('click', () => arch.toggle());
-// document.querySelector('.controls').prepend(archBtn);
 
 // -- Initial Data Load
 (async function init() {
